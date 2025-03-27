@@ -7,7 +7,7 @@ const router = express.Router()
 
 //All HashTag on country
 router.get("/country" , getcountryHashtag);
-router.get("/hastagname" , getHashtagData);
+router.post("/hastagname" , getHashtagData);
 
 
 module.exports = router

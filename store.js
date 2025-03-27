@@ -10,11 +10,11 @@ const woeidList = [
 ];
 
 // Your Twitter API Bearer Token
-const BEARER_TOKEN =
-  "AAAAAAAAAAAAAAAAAAAAAFbWzgEAAAAAE%2F9fmDqZq%2F3QgERP9dLKLbJUlGc%3DMF6ooDjT4Z8oji5FcK8gnXfdzH83jU5gceDB0zJeA5ZKp3EARi";
+const BEARER_TOKEN ="";
 
 // MongoDB Connection (ensure you have a MongoDB instance running)
-mongoose.connect("mongodb://localhost:27017/twitter-trends", {});
+// mongoose.connect("mongodb://localhost:27017/twitter-trends", {});
+require("./database/connection")
 
 // Function to get the trends and store in the database
 async function getAndStoreTrends(location) {

@@ -68,6 +68,7 @@ const getHashtagData = async (req, res) => {
       message: "Hashtag data retrieved successfully.",
       status: true,
       findHashtagData,
+      price:500
     });
   } catch (error) {
     console.log(error);
