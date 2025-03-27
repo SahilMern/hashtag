@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const dbUrl = "mongodb://localhost:27017/hashtag";
+const dbUrl = "mongodb://localhost:27017/twitter-trends";
 
 const connection = async () => {
   try {
