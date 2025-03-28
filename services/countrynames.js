@@ -79,25 +79,25 @@ module.exports = {
   getAllWoeids,
 };
 
-const woeidList = [
-  { name: "Algeria", woeid: 23424740 },
-  { name: "Argentina", woeid: 23424747 },
-  { name: "Australia", woeid: 23424748 },
-  { name: "Austria", woeid: 23424750 },
-];
-mai aaapko ek array of object dunga usko har min ek baar call karna hai or usse data base mai store karna hai lekin or jo naam hai usse releted data agar hoga jaise api se data aaya neche wale fromate mai 
-aaisa scehma banao 
-{
-  "_id": {
-    "$oid": "67e297b265d835700e162db7"
-  },
-  "location": "Algeria",
-  "trend_name": "حسام",
-  "tweet_count": 190200,
-  "timestamp": {
-    "$date": "2025-03-25T11:46:58.996Z"
-  },
-  "__v": 0
-}
+// const woeidList = [
+//   { name: "Algeria", woeid: 23424740 },
+//   { name: "Argentina", woeid: 23424747 },
+//   { name: "Australia", woeid: 23424748 },
+//   { name: "Austria", woeid: 23424750 },
+// ];
+// mai aaapko ek array of object dunga usko har min ek baar call karna hai or usse data base mai store karna hai lekin or jo naam hai usse releted data agar hoga jaise api se data aaya neche wale fromate mai 
+// aaisa scehma banao 
+// {
+//   "_id": {
+//     "$oid": "67e297b265d835700e162db7"
+//   },
+//   "location": "Algeria",
+//   "trend_name": "حسام",
+//   "tweet_count": 190200,
+//   "timestamp": {
+//     "$date": "2025-03-25T11:46:58.996Z"
+//   },
+//   "__v": 0
+// }
 
-to jaise mujhe location mila Algeria to db mai jitne data hai vo find kare and delete kar fhir new data add kare and jab last value pahuche fhir wapasa start ho matalb array of object mai jo value hai waha pahuch jaye fhir start value par jaye and api call karte rahe ye api jo hai twitter ki hai har 15 mai hum 15 api he call kar akte hai to ye cheez ko dhyan rakhna 
+// to jaise mujhe location mila Algeria to db mai jitne data hai vo find kare and delete kar fhir new data add kare and jab last value pahuche fhir wapasa start ho matalb array of object mai jo value hai waha pahuch jaye fhir start value par jaye and api call karte rahe ye api jo hai twitter ki hai har 15 mai hum 15 api he call kar akte hai to ye cheez ko dhyan rakhna 
